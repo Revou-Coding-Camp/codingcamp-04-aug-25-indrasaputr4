@@ -1,0 +1,57 @@
+body{
+	font-family: serif;
+	font-size: 13pt;
+	text-align: center;
+	background-color: #2d3342;
+}
+ tr{
+	text-align: left;
+ }
+ 
+th{
+	text-align:left;
+}
+ 
+img{
+	width: 20%;
+	margin-bottom: 10px;
+}
+ 
+.judul{
+	text-align: center;
+    color: #689f99;
+}
+ 
+.blok{
+	overflow: hidden;
+}
+ 
+.kiri{
+	width: 20%;
+	float: left;
+}
+ 
+.kanan{
+	width: 70%;
+	padding:0px 20px;	
+	float: left;
+}
+
+ul{ text-align: left;}
+ 
+@media only screen and (max-width: 768px) {
+	.kotak{
+		width: 100%;
+		padding: 0px;
+		border: none;
+	}
+	
+	.kiri{
+		width: 100%;
+	}
+ 
+	.kanan{
+		width: 100%;
+		padding: 0;
+	}
+}
